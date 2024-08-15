@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Archive Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Gri tonu */
+            margin: 40px;
+            padding: 50px;
+            height: 50px;
+            display: flex;
+            flex-direction: column; /* Dikey hizalama */
+            justify-content: center;
+            align-items: center;
+        }
+
+        #createdBy {
+            font-size: larger; /* Büyük font boyutu */
+            margin-bottom: 10px;
+            font-weight: bold; /* Kalın yazı tipi */
+        }
+
+        #extensionName {
+            color: #6a5acd; /* Mor tonu */
+            font-size: large; /* Büyük font boyutu */
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #6a5acd; /* Mor tonu */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        button:hover {
+            background-color: #483d8b; /* Mor tonun koyu rengi */
+        }
+    </style>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <p id="createdBy">Created By Lipnozz</p>
+    <p id="extensionName">WAS-J24.1</p>
+    <button id="searchButton">Search Web Archive</button>
+</body>
+</html>
