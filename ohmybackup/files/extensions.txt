@@ -1,0 +1,15 @@
+.zip
+.tar.gz
+.bzip
+.rar
+.gzip
+.7z
+.bak
+.backup
+.old
+.original
+.orig
+.save
+.sql
+.tmp
+.gho
